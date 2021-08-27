@@ -1,0 +1,93 @@
+.header {
+  font-family: system-ui;
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  background-color: aliceblue;
+  font-size: 2.5em;
+  border-radius: 35px 35px 0 0;
+  line-height: 4em;
+}
+main {
+  font-family: system-ui;
+}
+.article {
+  width: 90%;
+  margin: auto;
+  background-color: antiquewhite;
+}
+.article_title {
+  line-height: 2em;
+  font-size: 1.8em;
+  width: 90%;
+  margin: auto;
+}
+.article_list {
+  display: flex;
+  align-content: column;
+  justify-content: space-around;
+  width: 95%;
+  margin: auto;
+  flex-wrap: wrap;
+}
+.article_produit {
+  width: 30%;
+  height: 18em;
+  border-radius: 10px;
+  background-color: black;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+}
+.article_produit_details {
+  display: flex;
+  height: 4em;
+  justify-content: space-around;
+  background-color: rgb(43, 42, 78);
+}
+.article_produit_details_name {
+  width: 40%;
+}
+.article_produit_details_prix {
+  width: 40%;
+}
+.article_produit_vignette {
+  height: 13em;
+  background-color: white;
+}
+.article_produit_vignette_img {
+  width: 100%;
+  height: 215px;
+  border-radius: 10px 10px 0 0;
+  object-fit: cover;
+  background-color: white;
+}
+
+.article_list_num1 {
+  height: 300px;
+  width: 40%;
+  background-color: brown;
+}
+footer {
+  font-family: monospace;
+  width: 90%;
+  margin: auto;
+  background-color: black;
+  color: white;
+  padding-top: 1em;
+  padding-bottom: 0.8em;
+  text-align: center;
+}
+.footer_social {
+  display: flex;
+  width: 100%;
+  margin: auto;
+  justify-content: center;
+}
+.footer_social_icon {
+  width: 5%;
+  margin-top: 0.7em;
+}
+.social {
+  color: white;
+}
